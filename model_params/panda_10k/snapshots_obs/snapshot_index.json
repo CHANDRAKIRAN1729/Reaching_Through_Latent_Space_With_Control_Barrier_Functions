@@ -1,0 +1,11 @@
+{
+  "model.ckpt-015350-000230.pt": {
+    "epoch_obs": 230,
+    "epoch_vae": 15350,
+    "path": "/home/chandrakiran/Projects/7.RTLS_WITH_CBFS/model_params/panda_10k/snapshots_obs/model.ckpt-015350-000230.pt",
+    "train_collision_pred_rate": 0.9897625,
+    "train_loss_obs": 0.03292588895559311,
+    "val_collision_pred_rate": 0.94855,
+    "val_loss_obs": 0.16468110740184783
+  }
+}

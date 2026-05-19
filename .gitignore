@@ -1,0 +1,19 @@
+*__pycache__*
+*tmp*
+*logs*
+*_figs*
+*CMakeLists.txt
+*package.xml
+*venv*
+*activate
+
+
+
+# Large model files that exceed GitHub's 100MB limit
+/model_params/**/*.pt
+
+# Ignore data directories
+/cbf_data
+/cbf_fixed_data
+/cbf_multipos_data
+/classifier_fixed_data

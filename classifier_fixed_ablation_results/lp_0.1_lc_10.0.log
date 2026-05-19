@@ -1,0 +1,35 @@
+2026-05-18 23:12:51 INFO     Using device: cuda
+2026-05-18 23:12:51 INFO     VAE loaded from /home/chandrakiran/Projects/7.RTLS_WITH_CBFS/model_params/panda_10k/model.ckpt-016000.pt
+2026-05-18 23:12:51 INFO     FixedCollisionClassifier loaded (epoch 81, val_acc=98.9%)
+2026-05-18 23:12:51 INFO     
+======================================================================
+2026-05-18 23:12:51 INFO     FIXED-OBSTACLE CLASSIFIER EVALUATION
+2026-05-18 23:12:51 INFO       Obstacle: [0.5, 0.0, 0.75, 0.1]
+2026-05-18 23:12:51 INFO       Goal ee:  [0.39897406101226807, 0.21796053647994995, 0.6563624143600464]
+2026-05-18 23:12:51 INFO       Scenarios: 500 (random start only)
+2026-05-18 23:12:51 INFO       Planner: Goal + Prior + C(z) collision loss
+2026-05-18 23:12:51 INFO       λ_prior=0.1, λ_collision=10.0, T=1.0
+2026-05-18 23:12:51 INFO     ======================================================================
+
+2026-05-18 23:13:01 INFO     Progress: 50/500 | Success: 70.0% | Goal: 78.0% | Collision-free: 78.0%
+2026-05-18 23:13:14 INFO     Progress: 100/500 | Success: 61.0% | Goal: 73.0% | Collision-free: 71.0%
+2026-05-18 23:13:23 INFO     Progress: 150/500 | Success: 62.7% | Goal: 74.0% | Collision-free: 70.7%
+2026-05-18 23:13:33 INFO     Progress: 200/500 | Success: 63.5% | Goal: 75.5% | Collision-free: 72.0%
+2026-05-18 23:13:42 INFO     Progress: 250/500 | Success: 65.6% | Goal: 77.2% | Collision-free: 73.2%
+2026-05-18 23:13:54 INFO     Progress: 300/500 | Success: 64.7% | Goal: 75.7% | Collision-free: 72.0%
+2026-05-18 23:14:06 INFO     Progress: 350/500 | Success: 64.6% | Goal: 75.1% | Collision-free: 72.3%
+2026-05-18 23:14:16 INFO     Progress: 400/500 | Success: 63.0% | Goal: 75.2% | Collision-free: 70.8%
+2026-05-18 23:14:27 INFO     Progress: 450/500 | Success: 63.3% | Goal: 75.8% | Collision-free: 70.7%
+2026-05-18 23:14:39 INFO     Progress: 500/500 | Success: 62.2% | Goal: 75.2% | Collision-free: 69.8%
+2026-05-18 23:14:39 INFO     
+======================================================================
+2026-05-18 23:14:39 INFO     FIXED-OBSTACLE CLASSIFIER EVALUATION RESULTS
+2026-05-18 23:14:39 INFO     ======================================================================
+2026-05-18 23:14:39 INFO       Method:           Collision Classifier C(z) (baseline, fixed)
+2026-05-18 23:14:39 INFO       Obstacle:         [0.5, 0.0, 0.75, 0.1]
+2026-05-18 23:14:39 INFO       Test Scenarios:   500
+2026-05-18 23:14:39 INFO       Success Rate:     62.2%
+2026-05-18 23:14:39 INFO       Goal Reached:     75.2%
+2026-05-18 23:14:39 INFO       Collision-free:   69.8%
+2026-05-18 23:14:39 INFO       Avg Planning Time: 97.0 ± 53.5 ms
+2026-05-18 23:14:39 INFO     ======================================================================

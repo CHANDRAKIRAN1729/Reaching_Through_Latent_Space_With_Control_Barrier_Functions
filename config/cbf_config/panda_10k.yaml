@@ -1,0 +1,41 @@
+# CBF Training Configuration — Panda 10k
+# Reference: CBF_Implementation_Plan Section 5.4
+
+# === CBF Network Architecture ===
+cbf_hidden_units: 2048
+cbf_num_hidden: 4
+
+# === Training ===
+cbf_lr: 0.0001
+cbf_epochs: 500
+cbf_batch_size: 4096
+
+# === Loss Weights ===
+lambda_safe: 1.0        # weight for safe sign loss (CBF1 Eq 6)
+lambda_unsafe: 1.0      # weight for unsafe sign loss (CBF1 Eq 7)
+lambda_decrease: 1.0    # weight for CBF decrease condition (CBF1 Eq 8)
+
+# === CBF Parameters ===
+alpha: 0.1              # barrier decay rate
+delta_t: 1.0            # time step
+safety_margin: 0.0      # optional margin γ (enforce B ≥ γ for safe)
+
+# === Data Generation ===
+num_transition_scenarios: 3000
+transition_max_steps: 300
+transition_planning_lr: 0.15
+transition_lambda_prior: 0.7
+boundary_samples: 10000
+boundary_threshold: 0.05
+
+# === Planning (Inference) ===
+planning_lr: 0.15
+lambda_prior: 0.7
+max_steps: 300
+success_threshold: 0.01
+
+# === Checkpoint Selection ===
+save_every: 10
+
+# === Reproducibility ===
+seed: 42

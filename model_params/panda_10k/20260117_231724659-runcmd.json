@@ -1,0 +1,27 @@
+{
+  "parsed_args": {
+    "batch_size": 4096,
+    "epochs": 6,
+    "epochs_obs": 16000,
+    "free_space_test_name": "free_space_10k_test.dat",
+    "free_space_train_name": "free_space_100k_train.dat",
+    "input_dim": 10,
+    "latent_dim": 7,
+    "log_grads": false,
+    "log_interval": 1000,
+    "lr_obs": 0.0001,
+    "model_dir": "/home/chandrakiran/Projects/7.RTLS_WITH_CBFS/model_params/panda_10k",
+    "no_cuda": false,
+    "num_best_ckpt": 1,
+    "num_hidden_layers": 4,
+    "path_to_dataset": "/home/chandrakiran/Projects/7.RTLS_WITH_CBFS/data",
+    "pretrained_checkpoint_path": "../model_params/panda_10k/snapshots/model.ckpt-015350.pt",
+    "robo_name": "panda",
+    "save_every": 2,
+    "seed": 1,
+    "test_data_name": "collision_10k_test.dat",
+    "train_data_name": "collision_100k_train.dat",
+    "units_per_layer": 2048,
+    "vae_run_cmd_path": "../model_params/panda_10k/20260117_225605704-runcmd.json"
+  }
+}

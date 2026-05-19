@@ -1,0 +1,21 @@
+# model_params
+    lr_obs            : 0.0001
+
+# optim_params:
+    batch_size   : 4096
+    epochs_obs   : 16000
+    no_cuda      : false
+    seed         : 1
+    log_interval : 1000
+
+# data_params:
+    path_to_dataset            : '/home/chandrakiran/Projects/7.RTLS_WITH_CBFS/data'
+    train_data_name            : 'collision_100k_train.dat'
+    test_data_name             : 'collision_10k_test.dat'
+    vae_run_cmd_path           : '../model_params/panda_10k/20260117_225605704-runcmd.json'
+    pretrained_checkpoint_path : '../model_params/panda_10k/snapshots/model.ckpt-015350.pt'
+
+# model_saving_params:
+    model_dir      : '/home/chandrakiran/Projects/7.RTLS_WITH_CBFS/model_params/panda_10k'
+    save_every     : 2
+    num_best_ckpt  : 1

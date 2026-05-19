@@ -1,0 +1,52 @@
+2026-05-17 16:04:01 INFO     Using device: cuda
+2026-05-17 16:04:01 INFO     Robo3D geometric collision checker instantiated
+2026-05-17 16:04:01 INFO     Loading VAE from /home/chandrakiran/Projects/7.RTLS_WITH_CBFS/model_params/panda_10k/model.ckpt-016000.pt
+2026-05-17 16:04:01 INFO     VAE loaded: 7D latent
+2026-05-17 16:04:01 INFO     Loading BarrierNet from /home/chandrakiran/Projects/7.RTLS_WITH_CBFS/model_params/panda_10k/cbf_snapshots/barrier_net_best.pt
+2026-05-17 16:04:01 INFO     BarrierNet loaded (epoch 126)
+2026-05-17 16:04:01 INFO     
+Starting CBF evaluation (two-stage pipeline)...
+2026-05-17 16:04:01 INFO       Stage 1: Planning with Goal+Prior + CBF safety filter
+2026-05-17 16:04:01 INFO       Stage 2: Validation with Robo3D.check_for_collision
+2026-05-17 16:04:01 INFO     
+2026-05-17 16:04:01 INFO     ======================================================================
+2026-05-17 16:04:01 INFO     CBF Evaluation: 500 planning scenarios
+2026-05-17 16:04:01 INFO     Planner: Goal + Prior only (lr=0.03, λ_prior=0.01)
+2026-05-17 16:04:01 INFO     Safety: CBF filter (α=0.2, Δt=1.0)
+2026-05-17 16:04:01 INFO     Max steps: 300, Success threshold: 0.01m
+2026-05-17 16:04:01 INFO     ======================================================================
+2026-05-17 16:04:41 INFO     Progress: 100/500 | Success: 21.0% | Goal: 73.0% | Collision-free: 23.0% | CBF: λ_avg=0.0059, interv=57.6%
+2026-05-17 16:05:17 INFO     Progress: 200/500 | Success: 24.0% | Goal: 74.0% | Collision-free: 25.0% | CBF: λ_avg=0.0075, interv=51.1%
+2026-05-17 16:05:58 INFO     Progress: 300/500 | Success: 26.3% | Goal: 73.0% | Collision-free: 28.3% | CBF: λ_avg=0.0064, interv=50.4%
+2026-05-17 16:06:39 INFO     Progress: 400/500 | Success: 26.0% | Goal: 72.0% | Collision-free: 27.5% | CBF: λ_avg=0.0061, interv=51.5%
+2026-05-17 16:07:12 INFO     Progress: 500/500 | Success: 28.8% | Goal: 74.0% | Collision-free: 30.2% | CBF: λ_avg=0.0056, interv=50.4%
+2026-05-17 16:07:12 INFO     
+======================================================================
+2026-05-17 16:07:12 INFO     CBF PLANNING EVALUATION RESULTS
+2026-05-17 16:07:12 INFO     ======================================================================
+2026-05-17 16:07:12 INFO     Configuration:
+2026-05-17 16:07:12 INFO       Method:              CBF Safety Filter
+2026-05-17 16:07:12 INFO       Test Scenarios:      500
+2026-05-17 16:07:12 INFO       Obstacles per scene: 1
+2026-05-17 16:07:12 INFO       Success threshold:   0.01m
+2026-05-17 16:07:12 INFO       Max planning steps:  300
+2026-05-17 16:07:12 INFO       Planning LR:         0.03
+2026-05-17 16:07:12 INFO       Lambda prior:        0.01
+2026-05-17 16:07:12 INFO       CBF alpha:           0.2
+2026-05-17 16:07:12 INFO       CBF delta_t:         1.0
+2026-05-17 16:07:12 INFO       Collision checker:   Robo3D.check_for_collision (geometric ground truth)
+2026-05-17 16:07:12 INFO     ----------------------------------------------------------------------
+2026-05-17 16:07:12 INFO     Task Performance:
+2026-05-17 16:07:12 INFO       Success Rate:        28.80%
+2026-05-17 16:07:12 INFO       Goal Reached:        74.00%
+2026-05-17 16:07:12 INFO       Collision-free:      30.20%
+2026-05-17 16:07:12 INFO       Avg Planning Time:   127.23 ± 59.10 ms
+2026-05-17 16:07:12 INFO       Avg Path Length:     4.4654 ± 2.0625
+2026-05-17 16:07:12 INFO     ----------------------------------------------------------------------
+2026-05-17 16:07:12 INFO     CBF-Specific Metrics:
+2026-05-17 16:07:12 INFO       Avg λ correction:     0.005576
+2026-05-17 16:07:12 INFO       Max λ correction:     1.000000
+2026-05-17 16:07:12 INFO       Avg intervention rate: 50.4%
+2026-05-17 16:07:12 INFO       Avg min B(z_k):       -0.3400
+2026-05-17 16:07:12 INFO     ======================================================================
+

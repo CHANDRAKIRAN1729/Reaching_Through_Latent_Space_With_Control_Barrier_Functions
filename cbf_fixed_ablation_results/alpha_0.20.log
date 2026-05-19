@@ -1,0 +1,75 @@
+2026-05-17 12:43:58 INFO     Using device: cuda
+2026-05-17 12:43:58 INFO     VAE loaded from /home/chandrakiran/Projects/7.RTLS_WITH_CBFS/model_params/panda_10k/model.ckpt-016000.pt
+2026-05-17 12:43:58 INFO     FixedBarrierNet loaded (epoch 92)
+2026-05-17 12:43:58 INFO     
+======================================================================
+2026-05-17 12:43:58 INFO     FIXED-OBSTACLE CBF EVALUATION
+2026-05-17 12:43:58 INFO       Obstacle: [0.5, 0.0, 0.75, 0.1]
+2026-05-17 12:43:58 INFO       Goal ee:  [0.39897406101226807, 0.21796053647994995, 0.6563624143600464]
+2026-05-17 12:43:58 INFO       Scenarios: 500 (random start only)
+2026-05-17 12:43:58 INFO       CBF: α=0.2, Δt=1.0
+2026-05-17 12:43:58 INFO     ======================================================================
+
+2026-05-17 12:44:00 INFO     Progress: 10/500 | Success: 50.0% | Goal: 90.0% | Collision-free: 60.0%
+2026-05-17 12:44:01 INFO     Progress: 20/500 | Success: 75.0% | Goal: 95.0% | Collision-free: 80.0%
+2026-05-17 12:44:03 INFO     Progress: 30/500 | Success: 80.0% | Goal: 93.3% | Collision-free: 86.7%
+2026-05-17 12:44:04 INFO     Progress: 40/500 | Success: 77.5% | Goal: 92.5% | Collision-free: 85.0%
+2026-05-17 12:44:06 INFO     Progress: 50/500 | Success: 76.0% | Goal: 90.0% | Collision-free: 84.0%
+2026-05-17 12:44:08 INFO     Progress: 60/500 | Success: 73.3% | Goal: 91.7% | Collision-free: 80.0%
+2026-05-17 12:44:10 INFO     Progress: 70/500 | Success: 72.9% | Goal: 91.4% | Collision-free: 80.0%
+2026-05-17 12:44:11 INFO     Progress: 80/500 | Success: 75.0% | Goal: 92.5% | Collision-free: 81.2%
+2026-05-17 12:44:13 INFO     Progress: 90/500 | Success: 74.4% | Goal: 91.1% | Collision-free: 82.2%
+2026-05-17 12:44:14 INFO     Progress: 100/500 | Success: 74.0% | Goal: 92.0% | Collision-free: 81.0%
+2026-05-17 12:44:16 INFO     Progress: 110/500 | Success: 74.5% | Goal: 92.7% | Collision-free: 80.9%
+2026-05-17 12:44:18 INFO     Progress: 120/500 | Success: 75.0% | Goal: 91.7% | Collision-free: 80.8%
+2026-05-17 12:44:20 INFO     Progress: 130/500 | Success: 73.8% | Goal: 90.8% | Collision-free: 80.8%
+2026-05-17 12:44:21 INFO     Progress: 140/500 | Success: 74.3% | Goal: 91.4% | Collision-free: 80.7%
+2026-05-17 12:44:23 INFO     Progress: 150/500 | Success: 74.0% | Goal: 92.0% | Collision-free: 80.0%
+2026-05-17 12:44:24 INFO     Progress: 160/500 | Success: 74.4% | Goal: 91.2% | Collision-free: 80.6%
+2026-05-17 12:44:26 INFO     Progress: 170/500 | Success: 73.5% | Goal: 91.2% | Collision-free: 80.0%
+2026-05-17 12:44:28 INFO     Progress: 180/500 | Success: 73.9% | Goal: 90.6% | Collision-free: 80.6%
+2026-05-17 12:44:29 INFO     Progress: 190/500 | Success: 74.7% | Goal: 91.1% | Collision-free: 81.1%
+2026-05-17 12:44:31 INFO     Progress: 200/500 | Success: 75.0% | Goal: 91.5% | Collision-free: 81.0%
+2026-05-17 12:44:32 INFO     Progress: 210/500 | Success: 75.2% | Goal: 91.4% | Collision-free: 81.4%
+2026-05-17 12:44:34 INFO     Progress: 220/500 | Success: 75.0% | Goal: 90.9% | Collision-free: 81.4%
+2026-05-17 12:44:36 INFO     Progress: 230/500 | Success: 76.1% | Goal: 91.3% | Collision-free: 82.2%
+2026-05-17 12:44:38 INFO     Progress: 240/500 | Success: 76.2% | Goal: 91.2% | Collision-free: 82.5%
+2026-05-17 12:44:39 INFO     Progress: 250/500 | Success: 76.8% | Goal: 91.2% | Collision-free: 83.2%
+2026-05-17 12:44:41 INFO     Progress: 260/500 | Success: 76.9% | Goal: 91.2% | Collision-free: 83.1%
+2026-05-17 12:44:42 INFO     Progress: 270/500 | Success: 77.0% | Goal: 91.5% | Collision-free: 83.0%
+2026-05-17 12:44:43 INFO     Progress: 280/500 | Success: 76.8% | Goal: 91.4% | Collision-free: 82.9%
+2026-05-17 12:44:44 INFO     Progress: 290/500 | Success: 76.9% | Goal: 91.7% | Collision-free: 82.8%
+2026-05-17 12:44:46 INFO     Progress: 300/500 | Success: 77.3% | Goal: 92.0% | Collision-free: 83.0%
+2026-05-17 12:44:47 INFO     Progress: 310/500 | Success: 77.7% | Goal: 92.3% | Collision-free: 83.2%
+2026-05-17 12:44:49 INFO     Progress: 320/500 | Success: 77.2% | Goal: 91.6% | Collision-free: 83.1%
+2026-05-17 12:44:51 INFO     Progress: 330/500 | Success: 77.3% | Goal: 91.5% | Collision-free: 83.3%
+2026-05-17 12:44:52 INFO     Progress: 340/500 | Success: 77.1% | Goal: 91.8% | Collision-free: 82.9%
+2026-05-17 12:44:54 INFO     Progress: 350/500 | Success: 76.3% | Goal: 91.7% | Collision-free: 82.3%
+2026-05-17 12:44:56 INFO     Progress: 360/500 | Success: 76.4% | Goal: 91.7% | Collision-free: 82.5%
+2026-05-17 12:44:57 INFO     Progress: 370/500 | Success: 75.9% | Goal: 91.6% | Collision-free: 81.9%
+2026-05-17 12:44:58 INFO     Progress: 380/500 | Success: 75.5% | Goal: 91.6% | Collision-free: 81.6%
+2026-05-17 12:45:00 INFO     Progress: 390/500 | Success: 75.6% | Goal: 91.8% | Collision-free: 81.5%
+2026-05-17 12:45:01 INFO     Progress: 400/500 | Success: 75.8% | Goal: 92.0% | Collision-free: 81.5%
+2026-05-17 12:45:03 INFO     Progress: 410/500 | Success: 75.4% | Goal: 91.7% | Collision-free: 81.2%
+2026-05-17 12:45:05 INFO     Progress: 420/500 | Success: 75.7% | Goal: 91.7% | Collision-free: 81.7%
+2026-05-17 12:45:07 INFO     Progress: 430/500 | Success: 75.8% | Goal: 91.6% | Collision-free: 81.9%
+2026-05-17 12:45:09 INFO     Progress: 440/500 | Success: 75.9% | Goal: 91.8% | Collision-free: 81.8%
+2026-05-17 12:45:11 INFO     Progress: 450/500 | Success: 76.0% | Goal: 91.6% | Collision-free: 82.0%
+2026-05-17 12:45:12 INFO     Progress: 460/500 | Success: 75.4% | Goal: 91.7% | Collision-free: 81.3%
+2026-05-17 12:45:14 INFO     Progress: 470/500 | Success: 74.9% | Goal: 91.5% | Collision-free: 81.1%
+2026-05-17 12:45:16 INFO     Progress: 480/500 | Success: 75.2% | Goal: 91.7% | Collision-free: 81.2%
+2026-05-17 12:45:18 INFO     Progress: 490/500 | Success: 75.3% | Goal: 91.4% | Collision-free: 81.6%
+2026-05-17 12:45:19 INFO     Progress: 500/500 | Success: 75.6% | Goal: 91.4% | Collision-free: 82.0%
+2026-05-17 12:45:19 INFO     
+======================================================================
+2026-05-17 12:45:19 INFO     FIXED-OBSTACLE CBF EVALUATION RESULTS
+2026-05-17 12:45:19 INFO     ======================================================================
+2026-05-17 12:45:19 INFO       Obstacle:         [0.5, 0.0, 0.75, 0.1]
+2026-05-17 12:45:19 INFO       Test Scenarios:   500
+2026-05-17 12:45:19 INFO       Success Rate:     75.6%
+2026-05-17 12:45:19 INFO       Goal Reached:     91.4%
+2026-05-17 12:45:19 INFO       Collision-free:   82.0%
+2026-05-17 12:45:19 INFO       Avg Planning Time: 94.8 ± 67.4 ms
+2026-05-17 12:45:19 INFO       Avg λ:            0.066456
+2026-05-17 12:45:19 INFO       Intervention Rate: 37.9%
+2026-05-17 12:45:19 INFO     ======================================================================
